@@ -110,19 +110,6 @@ header .navbar-toggler i {
 .about-section {
   background-color: #f8fafa;
 }
-.about-section .fill-back {
-  position: relative;
-}
-.about-section .fill-back .fill_back {
-  background-color: grey;
-  width: 80%;
-  height: 60vh;
-  max-height: 400px;
-  position: absolute;
-  top: 10%;
-  right: 19%;
-  opacity: 0.2;
-}
 .about-section .fotorama .fotorama__dot {
   width: 10px;
   height: 10px;
