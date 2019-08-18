@@ -43,8 +43,9 @@ header {
   width: 100%;
   background-color: #eff0f2;
 }
-header nav {
-  margin-top: 10px;
+header .logo img {
+  width: 100%;
+  height: 100%;
 }
 header #navbarNav {
   text-align: center;
