@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 button {
@@ -63,7 +64,7 @@ textarea {
 }
 
 /*****NavBar*****/
-header {
+.header {
     z-index: 1000;
     position: fixed;
     width: 100%;
@@ -410,12 +411,12 @@ header {
     .windows {
         position: relative;
 
-        img {
-            display: block;
-            margin: 0 auto;
-            z-index: 100;
-            cursor: pointer;
-        }
+//        img {
+//            display: block;
+//            margin: 0 auto;
+//            z-index: 100;
+//            cursor: pointer;
+//        }
 
         .window {
             position: absolute;
@@ -935,10 +936,7 @@ footer {
 }
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
-    .about-section {
-	.fill_back {
-}
-}
+
     .team-section {
         .windows {
             .window {

@@ -4,7 +4,8 @@
 <head>
     <!--SEO-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!--Styles-->
     <link rel="stylesheet" href="fotorama.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
@@ -16,7 +17,8 @@
 
     <!--JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/fotorama.js"></script>
     <script src="js/less.js" type="text/javascript"></script>
     <script src="js/main.js"></script>
@@ -25,9 +27,9 @@
 
 <body>
     <!--NAVBAR-->
-    <header>
+    <header class="header">
         <div class="container">
-            <nav class="navbar navbar-light" id="top_nav">
+            <nav class="navbar  navbar-light" id="top_nav">
                 <a class="navbar-brand logo" href="#">
                     <img src="img/logo/logo.png" alt="logotype">
                 </a>
@@ -37,7 +39,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">about us</a>
@@ -82,7 +84,6 @@
                         <p>lorem ipsum dolor sit amet event landing template</p>
                     </article>
                 </div>
-                <div class="vartanchik"></div>
                 <div class="col-md-6 col-12">
                     <div class="fotorama" data-transition="crossfade">
                         <img src="img/Rectangle%201%20copy.png">
@@ -263,7 +264,9 @@
                         <p>lorem ipsum dolor sit amet event landing template</p>
                     </article>
                 </div>
-                <div class="row">
+
+            </div>
+            <div class="row">
                     <div class="col-md-4 col-12">
                         <div class="windows">
                             <img class="img-fluid" src="img/team/team1.jpg" alt="">
@@ -310,7 +313,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-md-4 col-12">
                         <div class="windows">
@@ -358,7 +360,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     <!------SAYS SECTION------->
